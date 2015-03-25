@@ -1,0 +1,125 @@
+€}qUmembersq}q(Uslogdetq}q(UkindqUfunctionqUvalueq}q	(U	overloadsq
+]q}q(UdocqU¥slogdet on the last two dimensions and broadcast on the rest. 
+Results in two arrays, one with sign and the other with log of the determinants. 
+    "(m,m)->(),()" 
+Uargsq}qUnameqUxs}q(Udefault_valueqUNoneqhUout1u}qhUout2s‡uahU¿slogdet(x[, out1, out2])
+
+slogdet on the last two dimensions and broadcast on the rest. 
+Results in two arrays, one with sign and the other with log of the determinants. 
+    "(m,m)->(),()" 
+uuUsvd_mq}q(hhh}q(h
+]q}q(hUsvd when n>=m. h}qhUxs}q(hhhUoutu†uahU svd_m(x[, out])
+
+svd when n>=m. uuUsvd_nq}q(hhh}q(h
+]q}q (hUsvd when n<=mh}q!hUxs}q"(hhhUoutu†uahUsvd_n(x[, out])
+
+svd when n<=muuUinvq#}q$(hhh}q%(h
+]q&}q'(hUcompute the inverse of the last two dimensions and broadcast to the rest. 
+Results in the inverse matrices. 
+    "(m,m)->(m,m)" 
+h}q(hUxs}q)(hhhUoutu†uahUinv(x[, out])
+
+compute the inverse of the last two dimensions and broadcast to the rest. 
+Results in the inverse matrices. 
+    "(m,m)->(m,m)" 
+uuUeigvalsq*}q+(hhh}q,(h
+]q-}q.(hU{eigvals on the last two dimension and broadcast to the rest. 
+Results in a vector of eigenvalues. 
+    "(m,m)->(m),(m,m)" 
+h}q/hUxs}q0(hhhUoutu†uahUŽeigvals(x[, out])
+
+eigvals on the last two dimension and broadcast to the rest. 
+Results in a vector of eigenvalues. 
+    "(m,m)->(m),(m,m)" 
+uuUcholesky_loq1}q2(hhh}q3(h
+]q4}q5(hUycholesky decomposition of hermitian positive-definite matrices. 
+Broadcast to all outer dimensions. 
+    "(m,m)->(m,m)" 
+h}q6hUxs}q7(hhhUoutu†uahUcholesky_lo(x[, out])
+
+cholesky decomposition of hermitian positive-definite matrices. 
+Broadcast to all outer dimensions. 
+    "(m,m)->(m,m)" 
+uuUeigvalsh_upq8}q9(hhh}q:(h
+]q;}q<(hU­eigvalsh on the last two dimension and broadcast to the rest, using upper triangle. 
+Results in a vector of eigenvalues and a matrix with theeigenvectors.
+    "(m,m)->(m)" 
+h}q=hUxs}q>(hhhUoutu†uahUÄeigvalsh_up(x[, out])
+
+eigvalsh on the last two dimension and broadcast to the rest, using upper triangle. 
+Results in a vector of eigenvalues and a matrix with theeigenvectors.
+    "(m,m)->(m)" 
+uuUsvd_m_sq?}q@(hhh}qA(h
+]qB}qC(hUsvd when m>=nh(}qDhUxs}qE(hhhUout1u}qFhUout2s}qGhUout3stuahU-svd_m_s(x[, out1, out2, out3])
+
+svd when m>=nuuUsolve1qH}qI(hhh}qJ(h
+]qK}qL(hU’solve the system a x = b, for b being a vector, broadcast in the outer dimensions. 
+Results in vectors with the solutions. 
+    "(m,m),(m)->(m)" 
+h}qMhUx1s}qNhUx2s}qO(hhhUoutu‡uahU©solve1(x1, x2[, out])
+
+solve the system a x = b, for b being a vector, broadcast in the outer dimensions. 
+Results in vectors with the solutions. 
+    "(m,m),(m)->(m)" 
+uuUsvd_n_fqP}qQ(hhh}qR(h
+]qS}qT(hUsvd when m>=nh(}qUhUxs}qV(hhhUout1u}qWhUout2s}qXhUout3stuahU-svd_n_f(x[, out1, out2, out3])
+
+svd when m>=nuuU__package__qY}qZ(hUdataq[h}q\Utypeq]]q^U__builtin__q_UNoneType†q`asuUsvd_m_fqa}qb(hhh}qc(h
+]qd}qe(hUsvd when m>=nh(}qfhUxs}qg(hhhUout1u}qhhUout2s}qihUout3stuahU-svd_m_f(x[, out1, out2, out3])
+
+svd when m>=nuuU__version__qj}qk(hh[h}qlh]]qmh_Ustr†qnasuU__doc__qo}qp(hh[h}qqh]]qrh`asuUsvd_n_sqs}qt(hhh}qu(h
+]qv}qw(hUsvd when m>=nh(}qxhUxs}qy(hhhUout1u}qzhUout2s}q{hUout3stuahU-svd_n_s(x[, out1, out2, out3])
+
+svd when m>=nuuUeigvalsh_loq|}q}(hhh}q~(h
+]q}q€(hUªeigh on the last two dimension and broadcast to the rest, using lower triangle. 
+Results in a vector of eigenvalues and a matrix with theeigenvectors. 
+    "(m,m)->(m)" 
+h}qhUxs}q‚(hhhUoutu†uahUÁeigvalsh_lo(x[, out])
+
+eigh on the last two dimension and broadcast to the rest, using lower triangle. 
+Results in a vector of eigenvalues and a matrix with theeigenvectors. 
+    "(m,m)->(m)" 
+uuU__file__qƒ}q„(hh[h}q…h]]q†hnasuU__name__q‡}qˆ(hh[h}q‰h]]qŠhnasuUeigh_upq‹}qŒ(hhh}q(h
+]qŽ}q(hU±eigh on the last two dimension and broadcast to the rest, using upper triangle. 
+Results in a vector of eigenvalues and a matrix with the eigenvectors. 
+    "(m,m)->(m),(m,m)" 
+h}qhUxs}q‘(hhhUout1u}q’hUout2s‡uahUËeigh_up(x[, out1, out2])
+
+eigh on the last two dimension and broadcast to the rest, using upper triangle. 
+Results in a vector of eigenvalues and a matrix with the eigenvectors. 
+    "(m,m)->(m),(m,m)" 
+uuUdetq“}q”(hhh}q•(h
+]q–}q—(hULdet of the last two dimensions and broadcast on the rest. 
+    "(m,m)->()" 
+h}q˜hUxs}q™(hhhUoutu†uahU[det(x[, out])
+
+det of the last two dimensions and broadcast on the rest. 
+    "(m,m)->()" 
+uuUeigh_loqš}q›(hhh}qœ(h
+]q}qž(hU¯eigh on the last two dimension and broadcast to the rest, using lower triangle 
+Results in a vector of eigenvalues and a matrix with theeigenvectors. 
+    "(m,m)->(m),(m,m)" 
+h}qŸhUxs}q (hhhUout1u}q¡hUout2s‡uahUÉeigh_lo(x[, out1, out2])
+
+eigh on the last two dimension and broadcast to the rest, using lower triangle 
+Results in a vector of eigenvalues and a matrix with theeigenvectors. 
+    "(m,m)->(m),(m,m)" 
+uuUsolveq¢}q£(hhh}q¤(h
+]q¥}q¦(hU“solve the system a x = b, on the last two dimensions, broadcast to the rest. 
+Results in a matrices with the solutions. 
+    "(m,m),(m,n)->(m,n)" 
+h}q§hUx1s}q¨hUx2s}q©(hhhUoutu‡uahU©solve(x1, x2[, out])
+
+solve the system a x = b, on the last two dimensions, broadcast to the rest. 
+Results in a matrices with the solutions. 
+    "(m,m),(m,n)->(m,n)" 
+uuUeigqª}q«(hhh}q¬(h
+]q­}q®(hU¡eig on the last two dimension and broadcast to the rest. 
+Results in a vector with the  eigenvalues and a matrix with the eigenvectors. 
+    "(m,m)->(m),(m,m)" 
+h}q¯hUxs}q°(hhhUout1u}q±hUout2s‡uahU·eig(x[, out1, out2])
+
+eig on the last two dimension and broadcast to the rest. 
+Results in a vector with the  eigenvalues and a matrix with the eigenvectors. 
+    "(m,m)->(m),(m,m)" 
+uuus.

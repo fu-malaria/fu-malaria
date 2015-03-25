@@ -1,0 +1,4 @@
+platform
+ctypes
+windows_only
+hide_file

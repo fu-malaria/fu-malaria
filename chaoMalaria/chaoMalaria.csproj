@@ -110,10 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Processed2\" />
-    <Folder Include="Processed\" />
     <Folder Include="tempImages\" />
-    <Folder Include="Upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
@@ -135,6 +132,7 @@
     <None Include="Properties\PublishProfiles\chaomalaria.com - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\chaomalaria.com - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Processed\HtmlPage1.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -168,6 +166,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="Upload\HtmlPage1.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

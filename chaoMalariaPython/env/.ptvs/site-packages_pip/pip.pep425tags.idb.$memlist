@@ -1,0 +1,13 @@
+absolute_import
+re
+sys
+warnings
+sysconfig
+distutils
+_osx_arch_pat
+get_abbr_impl
+get_impl_ver
+get_platform
+get_supported
+supported_tags
+supported_tags_noarch

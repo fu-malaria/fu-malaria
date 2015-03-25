@@ -1,0 +1,17 @@
+specifiers
+version
+_compat
+_structures
+__about__
+absolute_import
+division
+print_function
+__author__
+__copyright__
+__email__
+__license__
+__summary__
+__title__
+__uri__
+__version__
+__all__

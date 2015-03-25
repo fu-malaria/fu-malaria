@@ -1,0 +1,7 @@
+os
+sys
+unicodedata
+_Popen
+_PIPE
+_which_dirs
+run_setup_py

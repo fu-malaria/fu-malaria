@@ -1,0 +1,10 @@
+absolute_import
+logging
+warnings
+PipDeprecationWarning
+RemovedInPip7Warning
+RemovedInPip8Warning
+DEPRECATIONS
+_warnings_showwarning
+_showwarning
+install_warning_logger

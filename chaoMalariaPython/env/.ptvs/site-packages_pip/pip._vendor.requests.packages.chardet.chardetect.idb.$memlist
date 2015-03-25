@@ -1,0 +1,10 @@
+absolute_import
+print_function
+unicode_literals
+argparse
+sys
+open
+__version__
+UniversalDetector
+description_of
+main

@@ -1,0 +1,12 @@
+LapackError
+__doc__
+__file__
+__name__
+__package__
+dgelsd
+dgeqrf
+dorgqr
+xerbla
+zgelsd
+zgeqrf
+zungqr

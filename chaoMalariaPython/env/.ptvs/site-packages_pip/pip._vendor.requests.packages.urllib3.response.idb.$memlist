@@ -1,0 +1,15 @@
+zlib
+io
+SocketTimeout
+HTTPHeaderDict
+ProtocolError
+DecodeError
+ReadTimeoutError
+basestring
+binary_type
+HTTPException
+BaseSSLError
+is_fp_closed
+DeflateDecoder
+_get_decoder
+HTTPResponse

@@ -1,0 +1,6 @@
+absolute_import
+sys
+Command
+BASE_COMPLETION
+COMPLETION_SCRIPTS
+CompletionCommand

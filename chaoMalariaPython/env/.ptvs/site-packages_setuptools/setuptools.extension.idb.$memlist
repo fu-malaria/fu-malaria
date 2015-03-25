@@ -1,0 +1,10 @@
+sys
+re
+functools
+distutils
+_get_unpatched
+msvc9_support
+_Extension
+have_pyrex
+Extension
+Library

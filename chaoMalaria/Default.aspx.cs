@@ -18,7 +18,6 @@ namespace chaoMalaria
     {
         public string DefaultFileName = "Upload/";
         public string DefaultFileName2 = "Processed/";
-        public string DefaultFileName3 = "Processed2/";
 
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -1,0 +1,9 @@
+absolute_import
+os
+re
+urllib_parse
+get_file_content
+InstallRequirement
+normalize_name
+_scheme_re
+parse_requirements
