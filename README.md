@@ -1,6 +1,6 @@
 ### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood Born Conditions
 
-Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
+Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a Microscope that used computer vision to detect Malaria.
 
 Malaria kills 500,000-750,000 people a year, many of them young children and elderly. It often occurs in remote places that lack access to modern pathology services and so diagnosis is difficult and misdiagnosis is common.
 
