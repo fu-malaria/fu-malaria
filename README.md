@@ -1,4 +1,4 @@
-### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood Borne Conditions
+### FU Malaria - Computer Vision Platform for the Detection of Malaria and other Blood Borne Conditions
 
 Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
 
@@ -31,7 +31,7 @@ Intellectual Ventures has a long track record of helping the Gates Foundation wi
 
 We picked this because we wanted to validate if it was possible to put this capability into a small low cost computing package like a Raspberry PI or Intel Joule Computer Vision kit along with a Microscope so that it could go into field hospitals and clinics everywhere in the world to help cut down the transmission vector of the disease. (this is one of the biggest issues, cut the time it takes to diagnose and treat and you cut the multiplier effect of transmission).
  
-After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which has taken the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.
+After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which is taking the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.
 
 Originally implemented on Windows we are moving this to Linux.
 
@@ -43,20 +43,6 @@ It has the following issues Im aware of
 - It needs further work on species detection, especially some of the less obvious species.
 - It is currently configured to work on Thin Blood smears, normally a lab will use a think smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.
 
- FU Malaria is the Unix adaptation of ChaoMalaria.
  
-    Copyright (C) {2015-2016}  {Mike Nicholls, F Vega}
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
  
