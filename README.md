@@ -1,10 +1,13 @@
-### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood Born Conditions
+### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood Borne Conditions
 
-Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a Microscope that used computer vision to detect Malaria.
-
-![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Malaria-retro04.jpg "Portable Low Cost Microscope")
+Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg "Blood Slide")
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg "Blood Slide with Malaria Detection")
+
+We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope that used computer vision to detect Malaria.
+
+![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Malaria-retro04.jpg "Portable Low Cost Microscope")
+
 Malaria kills 500,000-750,000 people a year, many of them young children and elderly. It often occurs in remote places that lack access to modern pathology services and so diagnosis is difficult and misdiagnosis is common.
 
 We worked in the startup team of Intellectual Ventures Invention Development Fund and we prototyped a lot of projects but this one wasn't officially sanctioned :) and ended up getting dropped.
