@@ -36,13 +36,26 @@ After being restructured in 2016 and various life changes my previous employer I
 Originally implemented on Windows we are moving this to Linux.
 
 ##Issues & Limitations.
-This is a good proof of concept. To make it in the real world it needs to have some rough edges sanded off. 
+This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off. 
 
 It has the following issues Im aware of
 - It will occassionally detect cell artifacts that are not Malarial.
 - It needs further work on species detection, especially some of the less obvious species.
-- It is currently configured to work on Thin Blood smears, normally a lab will use a think smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.
+- It is currently configured to work on Thin Blood smears, normally a lab will use a thick smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.
 
- 
+ Copyright (C) {2015-2016}  {Mike Nicholls, FV}
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
  
