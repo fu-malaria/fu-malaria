@@ -5,9 +5,9 @@ Last year my engineer FV and I spent a summer working on a skunk works project t
 
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg "Blood Slide")
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg "Blood Slide with Malaria Detection")
+Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.
 
-
-We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope that used computer vision to detect Malaria.
+We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope <$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)
 
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Malaria-retro04.jpg "Portable Low Cost Microscope")
 
