@@ -1,4 +1,4 @@
-### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases
+### FU Malaria - Open Source Computer Vision prototype for the Detection of Malaria and other diseases
 
 Original Code & IP donated by [Visimagic.com](http://visimagic.com) and [Xinova.com](http://Xinova.com) 
 
