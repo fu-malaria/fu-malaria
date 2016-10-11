@@ -1,4 +1,6 @@
-### FU Malaria - Computer Vision Platform for the Detection of Malaria and other Blood diseases
+### FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases
+
+Code donated by Visimagic.com and Xinova.com
 
 Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
 
