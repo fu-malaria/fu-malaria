@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fu-Malaria by fu-malaria</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Fu-Malaria</h1>
+        <p>Open Source Computer Vision Platform for the Detection of Malaria and other Blood Borne Conditions</p>
+
+        <p class="view"><a href="https://github.com/fu-malaria/fu-malaria">View the Project on GitHub <small>fu-malaria/fu-malaria</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/fu-malaria/fu-malaria/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fu-malaria/fu-malaria/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/fu-malaria/fu-malaria">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="fu-malaria---open-source-computer-vision-platform-for-the-detection-of-malaria-and-other-blood-diseases" class="anchor" href="#fu-malaria---open-source-computer-vision-platform-for-the-detection-of-malaria-and-other-blood-diseases" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases</h3>
+
+<p>Original Code &amp; IP donated by <a href="http://visimagic.com">Visimagic.com</a> and <a href="http://Xinova.com">Xinova.com</a> </p>
+
+<p>Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. </p>
+
+<p><img src="https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg" alt="alt text" title="Blood Slide">
+<img src="https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg" alt="alt text" title="Blood Slide with Malaria Detection">
+Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.</p>
+
+<p>You can see a live demo here <a href="http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery">http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery</a> password is h88mnjlx</p>
+
+<p>We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope &lt;$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)</p>
+
+<p><img src="https://github.com/fu-malaria/fu-malaria/blob/master/Malaria-retro04.jpg" alt="alt text" title="Portable Low Cost Microscope"></p>
+
+<p>Malaria kills 500,000-750,000 people a year, many of them young children and elderly. It often occurs in remote places that lack access to modern pathology services and so diagnosis is difficult and misdiagnosis is common.</p>
+
+<p>We worked in the startup team of Intellectual Ventures Invention Development Fund and we prototyped a lot of projects but this one wasn't officially sanctioned :) and ended up getting dropped.</p>
+
+<p>The good news is that the new team at <a href="http://xinova.com/">http://xinova.com/</a> have kindly contributed this project to our company Visimagic Inc and we are making it available to the world to help reduce Malaria transmission.</p>
+
+<h2>
+<a id="what-now" class="anchor" href="#what-now" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What Now</h2>
+
+<p>We are asking developers in communities around the world to contribute their progamming and computer vision skills to enhance this project. </p>
+
+<p>It should not need to be said but I will say it anyway, we invite anyone from any community, race, sex, sexual orientation or religion to contribute and encourage anyone who wants to try to build a business around this contribution if it helps achieve the aim of reducing Malaria. </p>
+
+<h2>
+<a id="fu-malaria-background" class="anchor" href="#fu-malaria-background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FU Malaria Background</h2>
+
+<p><strong>FU Malaria</strong> is a platform that uses OpenCV and a rule set that detects and mark most Malaria species that affect humans. It displays the image with a colored circles to indicate the blood cells and any Malaria pathogens in an image of a thin blood smear.</p>
+
+<p>Intellectual Ventures has a long track record of helping the Gates Foundation with Malaria projects but this was outside official channels and designed to be a fast and dirty experiment to see if we could train computer vision to detect Malaria in a blood slide image.</p>
+
+<p>We picked this because we wanted to validate if it was possible to put this capability into a small low cost computing package like a Raspberry PI or Intel Joule Computer Vision kit along with a Microscope so that it could go into field hospitals and clinics everywhere in the world to help cut down the transmission vector of the disease. (this is one of the biggest issues, cut the time it takes to diagnose and treat and you cut the multiplier effect of transmission).</p>
+
+<p>After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which is taking the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.</p>
+
+<p>Originally implemented on Windows we are moving this to Linux.</p>
+
+<h2>
+<a id="issues--limitations" class="anchor" href="#issues--limitations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues &amp; Limitations.</h2>
+
+<p>This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off. </p>
+
+<p>It has the following issues Im aware of</p>
+
+<ul>
+<li>It will occassionally detect cell artifacts that are not Malarial.</li>
+<li>It needs further work on species detection, especially some of the less obvious species.</li>
+<li>
+<p>It is currently configured to work on Thin Blood smears, normally a lab will use a thick smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.</p>
+
+<p>Copyright (C) {2015-2016}  {Mike Nicholls, FV}</p>
+</li>
+</ul>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/fu-malaria">fu-malaria</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
