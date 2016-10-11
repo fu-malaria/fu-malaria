@@ -2,6 +2,7 @@
 
 Original Code & IP donated by [Visimagic.com](http://visimagic.com) and [Xinova.com](http://Xinova.com) 
 
+
 Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
 
 
