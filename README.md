@@ -10,7 +10,7 @@ Last year my engineer FV and I spent a summer working on a skunk works project t
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg "Blood Slide with Malaria Detection")
 Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.
 
-You can see a live demo here http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery password is h88mnjlx
+You can see a live demo here http://fumalaria.visimagic.com/ 
 
 We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope <$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)
 
