@@ -8,6 +8,7 @@ Last year my engineer FV and I spent a summer working on a skunk works project t
 
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg "Blood Slide")
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg "Blood Slide with Malaria Detection")
+
 Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.
 
 You can see a live demo here http://fumalaria.visimagic.com/ 
