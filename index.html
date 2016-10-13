@@ -1,125 +1,258 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fu-Malaria by fu-malaria</title>
+      <meta name="description" content="Open Source Computer Vision Platform for the Detection of Malaria and other diseases.">
+      <meta name="author" content="Fu-Malaria">
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/template-scripts.js"></script> 
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->
+      <header>
+          
+         <nav>
+            <div class="line">
+               <div class="s-12 l-2">
+                  <p class="logo"><strong>Fu</strong>-Malaria</p>
+               </div>
+               <div class="top-nav s-12 l-10">
+                  <p class="nav-text">Menu</p>
+                  <ul class="right">
+                     <li class="active-item"><a href="#carousel">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#what-now">What Now</a></li>
+                     <li><a href="#background">FU Malaria Background</a></li>
+                     <li><a href="#issues">Issues & Limitations</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>  
+      <section>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+      <!-- CAROUSEL --> 
+         <div id="carousel">
+            <div id="owl-demo" class="owl-carousel owl-theme"> 
+               <div class="item">
+                  <img src="img/first.jpg" alt="">
+                  <div class="line"> 
+                     <div class="text hide-s">
+                        <div class="line"> 
+                          <!--<div class="prev-arrow hide-s hide-m">
+                             <i class="icon-chevron_left">
+                          </div>
+                          <div class="next-arrow hide-s hide-m">
+                             <i class="icon-chevron_right"></i>
+                          </div>-->
+                        </div> 
+                        <h2>FU Malaria</h2>
+                        
+                    <div style="background: none repeat scroll 0 0 #1976D2;">
+                    <p>Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases.</p>
+                    <p style="float: left;width: 110px;">
+                       <!-- Place this tag where you want the button to render. -->
+                       <a class="github-button" href="https://github.com/fu-malaria/fu-malaria" data-icon="octicon-star" data-style="mega" data-count-href="/fu-malaria/fu-malaria/stargazers" data-count-api="/repos/fu-malaria/fu-malaria#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star fu-malaria/fu-malaria on GitHub">Star</a>
+                     </p>
 
-    <title>Fu-Malaria by fu-malaria</title>
-  </head>
+                    <p style="float: left;width: 190px;">
+                      <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/fu-malaria" data-style="mega" data-count-href="/fu-malaria/followers" data-count-api="/users/fu-malaria#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @fu-malaria on GitHub">Follow @fu-malaria</a>
+                    </p>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Fu-Malaria</h1>
-        <h2>Open Source Computer Vision Platform for the Detection of Malaria and other diseases</h2>
-        <a href="https://github.com/fu-malaria/fu-malaria" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+                    <p style="float: left;width: 110px">
+                      <!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/fu-malaria/fu-malaria/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/fu-malaria/fu-malaria/network" data-count-api="/repos/fu-malaria/fu-malaria#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork fu-malaria/fu-malaria on GitHub">Fork</a>
+                    </p>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a id="fu-malaria---open-source-computer-vision-platform-for-the-detection-of-malaria-and-other-blood-diseases" class="anchor" href="#fu-malaria---open-source-computer-vision-platform-for-the-detection-of-malaria-and-other-blood-diseases" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases</h3>
 
-<p>Original Code &amp; IP donated by <a href="http://visimagic.com">Visimagic.com</a> and <a href="http://Xinova.com">Xinova.com</a> </p>
+                      <p style="float: left;width: 100px;">
+                      <!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/fu-malaria/fu-malaria/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download fu-malaria/fu-malaria on GitHub">Download</a> 
+                     </p>
+                     <div style="clear: both;">
+                     </div>
+                    
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
 
-<p>Last year my engineer FV and I (<a href="https://twitter.com/mikenicholls88">@Mikenicholls88</a>) spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. </p>
+         <!-- ABOUT US -->
+         <div style="padding-top: 70px;" id="about">
+            <div class="line">
+                <h2 class="section-title">About</h2>
+            </div>
+         </div>
+         <div  id="about-us">
+            <div class="s-12 m-12 l-6 media-container">
+               <img src="img/about.jpg" alt="">
+            </div>
+            <article class="s-12 m-12 l-6">
+               
+               <h2 class="white">FU Malaria - Open Source Computer Vision Platform for the Detection of Malaria and other Blood diseases</h2> 
 
-<p><img src="https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg?raw=true" alt="alt text" title="Blood Slide">
-<img src="https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinB.jpg?raw=true" alt="alt text" title="Blood Slide with Malaria Detection"></p>
+               <p>Original Code & IP donated by <a href="http://visimagic.com/" target="_blank">Visimagic.com</a> and <a href="http://xinova.com/" target="_blank">Xinova.com</a></p>
 
-<p>Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.</p>
+                <p>Last year my engineer FV and I (<a href="https://twitter.com/mikenicholls88" target="_blank">@Mikenicholls88</a>) spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells.
 
-<p>You can see a live demo here <a href="http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery">http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery</a> password is h88mnjlx</p>
+                <div><img style="float: left;" src="img/Pf_rings_thinC.jpg" alt="">
+                <img style="float: left; padding-left: 10px;" src="img/Pf_rings_thinB.jpg" alt="">
+                <div style="clear: both;"></div>
+                </div>
+               </p>
+              <p>Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.</p>
 
-<p>We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope &lt;$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)</p>
+              <p>You can see a live demo here <a href="http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery" target="_blank">http://ec2-52-10-13-156.us-west-2.compute.amazonaws.com/Gallery</a> password is <strong>h88mnjlx</strong></p>
 
-<p><img src="https://github.com/fu-malaria/fu-malaria/blob/master/Malaria-retro04.jpg?raw=true" alt="alt text" title="Portable Low Cost Microscope"></p>
+              <p>We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope <$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)</p>
 
-<p>Malaria kills 500,000-750,000 people a year, many of them young children and elderly. It often occurs in remote places that lack access to modern pathology services and so diagnosis is difficult and misdiagnosis is common.</p>
 
-<p>We worked in the startup team of Intellectual Ventures Invention Development Fund and we prototyped a lot of projects but this one wasn't officially sanctioned :) and ended up getting dropped.</p>
 
-<p>The good news is that the new team at <a href="http://xinova.com/">http://xinova.com/</a> have kindly contributed this project to our company Visimagic Inc and we are making it available to the world to help reduce Malaria transmission.</p>
+               <p>Malaria kills 500,000-750,000 people a year, many of them young children and elderly. It often occurs in remote places that lack access to modern pathology services and so diagnosis is difficult and misdiagnosis is common.</p>
 
-<h2>
-<a id="what-now" class="anchor" href="#what-now" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What Now</h2>
+               <p>We worked in the startup team of Intellectual Ventures Invention Development Fund and we prototyped a lot of projects but this one wasn't officially sanctioned :) and ended up getting dropped.</p>
 
-<p>We are asking developers in communities around the world to contribute their progamming and computer vision skills to enhance this project. </p>
+               <p>The good news is that the new team at <a href="http://xinova.com/" target="_blank">http://xinova.com/</a> have kindly contributed this project to our company Visimagic Inc and we are making it available to the world to help reduce Malaria transmission.
+               </p>
+               
+            </article>
+         </div>
+         <!-- What Now-->
+         <div id="what-now">
+            <div class="line">
+                <h2 class="section-title">What Now</h2>
+                <div class="txt">
+                   <p>We are asking developers in communities around the world to contribute their progamming and computer vision skills to enhance this project.</p>
 
-<p>It should not need to be said but I will say it anyway, we invite anyone from any community, race, sex, sexual orientation or religion to contribute and encourage anyone who wants to try to build a business around this contribution if it helps achieve the aim of reducing Malaria. </p>
+                   <p>It should not need to be said but I will say it anyway, we invite anyone from any community, race, sex, sexual orientation or religion to contribute and encourage anyone who wants to try to build a business around this contribution if it helps achieve the aim of reducing Malaria.</p>
+                </div>
+           </div>
+        </div>
+         
+         <!-- Background -->
+        <div id="background">
+            <div class="line">         
+                <h2 class="section-title">FU Malaria Background</h2>
+                <div class="txt">
+                    <p>FU Malaria is a platform that uses OpenCV and a rule set that detects and mark most Malaria species that affect humans. It displays the image with a colored circles to indicate the blood cells and any Malaria pathogens in an image of a thin blood smear.</p>
 
-<h2>
-<a id="fu-malaria-background" class="anchor" href="#fu-malaria-background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FU Malaria Background</h2>
+                    <p>Intellectual Ventures has a long track record of helping the Gates Foundation with Malaria projects but this was outside official channels and designed to be a fast and dirty experiment to see if we could train computer vision to detect Malaria in a blood slide image.</p>
 
-<p><strong>FU Malaria</strong> is a platform that uses OpenCV and a rule set that detects and mark most Malaria species that affect humans. It displays the image with a colored circles to indicate the blood cells and any Malaria pathogens in an image of a thin blood smear.</p>
+                    <p>We picked this because we wanted to validate if it was possible to put this capability into a small low cost computing package like a Raspberry PI or Intel Joule Computer Vision kit along with a Microscope so that it could go into field hospitals and clinics everywhere in the world to help cut down the transmission vector of the disease. (this is one of the biggest issues, cut the time it takes to diagnose and treat and you cut the multiplier effect of transmission).</p>
 
-<p>Intellectual Ventures has a long track record of helping the Gates Foundation with Malaria projects but this was outside official channels and designed to be a fast and dirty experiment to see if we could train computer vision to detect Malaria in a blood slide image.</p>
+                    <p>After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which is taking the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.</p>
 
-<p>We picked this because we wanted to validate if it was possible to put this capability into a small low cost computing package like a Raspberry PI or Intel Joule Computer Vision kit along with a Microscope so that it could go into field hospitals and clinics everywhere in the world to help cut down the transmission vector of the disease. (this is one of the biggest issues, cut the time it takes to diagnose and treat and you cut the multiplier effect of transmission).</p>
+                    <p>Originally implemented on Windows we are moving this to Linux.</p>
+                </div>
+            </div>
+        </div>
 
-<p>After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which is taking the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.</p>
+          <!--Issues & Limitations-->
 
-<p>Originally implemented on Windows we are moving this to Linux.</p>
+          <div id="issues">
+              <div class="line">
+                   <h2 class="section-title">Issues & Limitations</h2>
+                   <div class="txt">
+                       <p>This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off.</p>
 
-<h2>
-<a id="issues--limitations" class="anchor" href="#issues--limitations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues &amp; Limitations.</h2>
+                      <p>It has the following issues Im aware of</p>
+                      <ul>
+                          <li>It will occassionally detect cell artifacts that are not Malarial.</li>
+                          <li>It needs further work on species detection, especially some of the less obvious species.</li>
+                          <li>It is currently configured to work on Thin Blood smears, normally a lab will use a thick smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.</li>
+                      </ul>
+                   </div>
+              </div> 
+          </div>
+        
+         <!-- CONTACT -->
+         <div id="contact">
+            <div class="line">
+               <h2 class="section-title">Contact Us</h2>
+               <div class="margin">
+                  
+                  <div class="s-12 m-12 l-4 margin-bottom right-align">
+                     <h3>FU-Malaria</h3>
+                     <address>
+                        <p><strong>Twitter :</strong> <a style="color: #666 !important;" href="https://twitter.com/mikenicholls88" target="_blank">@Mikenicholls88</a></p>
+                        <p><strong>E-mail:</strong> mikenicholls88@gmail.com</p>
+                     </address>
+                     <br />
+                  </div>
+                  <div class="s-12 m-12 l-8">
 
-<p>This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off. </p>
+                    <h3>Contact Us</h3>
 
-<p>It has the following issues Im aware of</p>
+                    <form style="padding-top: 10px;" class="customform" action="contact.php" method="post">
+                      <div class="s-12"><input name="cf_email" placeholder="Your e-mail" title="Your e-mail" required type="email" /></div>
+                      <div class="s-12"><input name="cf_name" placeholder="Your name" title="Your name" required type="text" /></div>
+                      <div class="s-12"><textarea placeholder="Your message" required name="cf_message" rows="5"></textarea></div>
+                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit">Send</button></div>
+                    </form>
 
-<ul>
-<li>It will occassionally detect cell artifacts that are not Malarial.</li>
-<li>It needs further work on species detection, especially some of the less obvious species.</li>
-<li>
-<p>It is currently configured to work on Thin Blood smears, normally a lab will use a thick smear in order to get sufficient volume to ensure sufficient sensitivity, while it does pick up pathogens in Thick smears it is less definitive and further work from Malarial experts is needed to codify the differences between pathogens and artifacts.</p>
 
-<p>Copyright (C) {2015-2016}  {Mike Nicholls, FV}</p>
-</li>
-</ul>
-
-<p>This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.</p>
-
-<p>This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.</p>
-
-<p>You should have received a copy of the GNU General Public License
-along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/fu-malaria/fu-malaria/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/fu-malaria/fu-malaria/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/fu-malaria/fu-malaria"></a> is maintained by <a href="https://github.com/fu-malaria">fu-malaria</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-  
-  </body>
+                  </div>                
+               </div>
+            </div>
+         </div>
+       
+      </section>
+      <!-- FOOTER -->
+      <footer id="footer">
+         <div class="line">
+            <div>
+               <p style="text-align: center;font-size: 16px;">Copyright (C) 2015-2016 - Mike Nicholls, FV</p>
+            </div>
+         </div>
+      <a href="#0" class="cd-top">Top</a>
+      </footer>
+      <script type="text/javascript" src="js/responsee.js"></script>
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {
+            var theme_slider = $("#owl-demo");
+            $("#owl-demo").owlCarousel({
+                navigation: false,
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                autoPlay: 6000,
+                addClassActive: true,
+             // transitionStyle: "fade",
+                singleItem: true
+            });
+            $("#owl-demo2").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["&#xf007","&#xf006"],
+                pagination: false,
+                singleItem: true
+            });
+        
+            // Custom Navigation Events
+            $(".next-arrow").click(function() {
+                theme_slider.trigger('owl.next');
+            })
+            $(".prev-arrow").click(function() {
+                theme_slider.trigger('owl.prev');
+            })     
+        }); 
+      </script>
+   </body>
 </html>
