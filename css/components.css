@@ -144,12 +144,12 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
 }
 /* Buttons */
 .button,a.button,a.button:link,a.button:active,a.button:visited {
-  background: #777 none repeat scroll 0 0;
+  background: #92c500 none repeat scroll 0 0;
   border: 0;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 1 rem;
   padding: 0.825rem 1rem;
   text-align: center;
   transition: all 0.20s linear 0s;
