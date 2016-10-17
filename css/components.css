@@ -149,8 +149,8 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 1 rem;
-  padding: .2rem 1rem;
+  font-size: 1rem;
+  padding: .25rem 1rem;
   text-align: center;
   transition: all 0.20s linear 0s;
   -o-transition: all 0.20s linear 0s;
