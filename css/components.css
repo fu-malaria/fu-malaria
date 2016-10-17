@@ -160,6 +160,8 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
 }
 .button.rounded-btn {
   border-radius: 4px;
+  background: #eee;
+  color: #000; 
 }
 .button.rounded-full-btn {
   border-radius: 100px;
