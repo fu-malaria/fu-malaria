@@ -150,7 +150,7 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
   cursor: pointer;
   display: inline-block;
   font-size: 1 rem;
-  padding: 0.825rem 1rem;
+  padding: .2rem 1rem;
   text-align: center;
   transition: all 0.20s linear 0s;
   -o-transition: all 0.20s linear 0s;
