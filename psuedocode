@@ -1,0 +1,113 @@
+Rules for Detecting Malaria using Computer Vision
+
+Things to look for
+
+1. Double Dots stained blue/purple
+2. Many faint dots in a red blood cell
+3. Partial Light colored Ring Shape in a Red Blood Cell with pronounced Single or Double dots at each end (can be more than one in each red blood cell)  stained blue/purple
+4. Crescent, Moon or rice Shaped Cells independent of the red blood cells  stained blue/purple
+5. Cells with very rough spiky edges with rings/dots in the cell
+6. High Concentration of Blue/Purple dots in red blood cell (differentiated from White Blood Cells by size of cells)
+7. Tubar shaped cells within a red blood cell
+8. A band of stained cells running across a Red Blood Cell
+9. Clusters of bright blue dots, larger than typical dots in a white blood cell
+10. Large solid ink blots in cells
+11. Stained cells leaching into other cells
+12. Red Bood cells completely consumed from the inside i.e. pathogens dominating the whole cell
+13.  
+
+Identifying White Blood Cells
+
+White Blood cells stain and must be identified and excluded from the Malaria Count
+
+Most White Blood Cells are significantly larger than a Red Blood Cell.
+
+
+1. Clumps or high concentrations of white blood cells (larger or smaller than red blood cells) that stain
+2. Red Blood Cells with very white insides (anemia)
+
+
+Granulocytes:
+Neutrophils
+￼
+This shows a neutrophil in a blood smear. The neutrophils are 12-14 µm diameter, and so look bigger than the surrounding red blood cells. There is a single nucleus, which is multilobed, and can have between 2 and 5 lobes.
+The chromatin in the nucleus is condensed. This means that there isn't protein synthesis. There are few organelles in the cytoplasm.
+￼
+Neutrophils are the commonest type of white blood cell found in a blood smear. They make up 60-70% of the total amount of white blood cells.
+Neutrophils have 3 types of granules:
+1. azure granules (lysosomes),
+2. secretory granules in salmon pink cytoplasm, anti-microbial enzymes.
+3. have glycoproteins and gelatinase.
+Function:  Neutrophils are born in the bone marrow. They circulate in the blood for 6-10 hours, and then enter the tissues. They are motile, and phagocytic and will destroy damaged tissue and bacteria. They self destruct after one burst of activity.
+They are important in inflammatory reactions.
+Eosinophils
+￼
+This picture shows an eosinophil in a blood smear. These cells are 12 - 17 µm in diameter - larger than neutrophils, and about 3 times the size of a red blood cell. You can see that eosinophils only have two lobes to their nucleus.
+These cells have large acidophilic specific granules - these stain bright red, or reddish-purple.
+These granules contain proteins that are 'destructive' and toxic.
+￼
+Eosinophils are fairly rarely found in blood smears - making up 1-6% of the total white blood cells.
+Function :  These cells are born in the bone marrow, and migrate from the peripheral blood system after a few hours, into loose connective tissue in the respiratory and gastointestinal tracts. They phagocytose antigen-antibody complexes. They also produce histaminase, and aryl suphatase B, two enzymes that inactivate two inflammatory agents released by mast cells. A high eosinophil blood count may indicate an allergic reaction.
+Eosinophils are also important in killing parasitic worms.
+Basophils
+￼
+This photo shows a picture of a basophil. They are 14-16 µm in diameter, contain lots of deep blue staining granules (basic) and a bilobed nucleus.The granules contain heparin, histamine and serotonin. prostaglandins and leukotrienes.
+￼
+Basophils are the rarest type of white blood cell, making up only 1% of the white blood cells found in a blood smear.
+Function: These cells are involved in immune responses to parasites. They have IgE receptors and the granules are released when the cells bind IgE. These cells also accumulate at sites of infection, and the release of prostaglandins, serotonin and histamine help to increase blood flow to the area of damage, as part of the inflammatory response. The degranulation - release of histamine also plays a role in allergic reactions such as hay fever.
+Agranulocytes:
+* Lymphocyte 
+￼
+* These are the second most common white blood cell (20-50%), and are easy to find in blood smears. Although the cells look similar there are two main types, B-cells and T-cells. B-cells develop in the bone marrow. T cells are born in the bone marrow, but are matured in the Thymus. There will be more on this in the section on theimmune system. Function:  The B-cells develop into plasma cells which make antibodies, The T-cells attack viruses, cancer cells, and transplants. 
+￼
+* This is a photo of a lymphocyte in a blood smear. Most of the lymphocytes are small; a bit bigger than red blood cells, at about 6-9µm in diameter, The rest (around 10%) are larger, about 10-14µm in diameter. These larger cells have more cytoplasm, more free ribosomes and mitochondria. Lymphocytes can look like monocytes, except that lymphocytes do not have a kidney-bean shaped shaped nucleus, and lymphocytes are usually smaller. Larger lymphocytes are commonly activated lymphocytes. They have a small spherical nucleus and has abundant dark staining condensed chromatin. Not much cytoplasm can be seen, and it is basophilic (pale blue/purple staining). 
+￼
+* Think - what does this mean about the levels of protein production in these cells? Are they high, or low? 
+Monocyte
+￼
+This is a photo of a monocyte in a blood smear.
+These are the largest type of white blood cells, and can be up to 20µm in diameter.
+They have a large eccentrically placed nucleus, which is kidney bean shaped.
+They have abundant cytoplasm, and some fine pink/purple granules in cytoplasm.
+￼
+Monocytes are the third most common type of white blood cell; about 2-10% of leucocytes are monocytes.
+Function:  Monocytes in the circulation are precursors of tissue macrophages that are actively phagocytic. Monocytes circulate in the blood for 1-3 days, and then migrate into body tissues, where they transform into macrophages. They will phagocytose dead cells and bacteria. Some monocytes can also transform into osteoclasts.
+Monocytes are important in the inflammatory response.
+
+http://www.histology.leeds.ac.uk/blood/blood_wbc.php
+
+http://www.histology.leeds.ac.uk/blood/wbc_identify_pg1.php
+
+Algo for Malaria
+
+1. Find all blobs
+2. Categorise the blobs by size
+3. Mark the most common size blobs as red blood cells
+4. Get the peak histogram colors
+5. Highlight anything which is stained (vs pink for the red blood cells)
+6. Mark the blood cells as red border
+7. For cells larger than red blood cells mark as white blood cells
+
+
+Show Sausage or crescent or curved cells
+Show Dots 
+Show Circular rings with dot(s)
+Show Objects with tails
+Show clumped dots >5 together in red blood cell
+Show mass clumps outside red blood cells
+
+Show red blood cells with dots which are distorted  (i.e. oval or pear shaped, generally not circular)
+Show red blood cells with dots that are >10% larger than average red blood cells
+Show Red Blood Cells with Bands of tiny stained dots
+Show red blood cells with scattered pigment covering >50% of the cell
+
+
+Comparison of Cell Sizes, colors and arrangements for the different species
+
+http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Malaria_Comparison_p7-8.pdf
+
+
+Test for counting infections
+http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Parasitemia_and_LifeCycle.pdf
+
+
