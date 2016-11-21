@@ -110,4 +110,38 @@ http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Malaria_Comparison_p7-8.
 Test for counting infections
 http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Parasitemia_and_LifeCycle.pdf
 
+Algo for Malaria
+
+1. Find all blobs
+2. Categorise the blobs by size
+3. Mark the most common size blobs as red blood cells
+4. Get the peak histogram colors
+5. Highlight anything which is stained (vs pink for the red blood cells)
+6. Mark the blood cells as red border
+7. For cells larger than red blood cells mark as white blood cells
+
+
+Show Sausage or crescent or curved cells
+Show Dots 
+Show Circular rings with dot(s)
+Show Objects with tails
+Show clumped dots >5 together in red blood cell
+Show mass clumps outside red blood cells
+
+Show red blood cells with dots which are distorted  (i.e. oval or pear shaped, generally not circular)
+Show red blood cells with dots that are >10% larger than average red blood cells
+Show Red Blood Cells with Bands of tiny stained dots
+Show red blood cells with scattered pigment covering >50% of the cell
+
+
+Comparison of Cell Sizes, colors and arrangements for the different species
+
+http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Malaria_Comparison_p7-8.pdf
+
+
+Test for counting infections
+http://www.cdc.gov/dpdx/resources/pdf/benchAids/malaria/Parasitemia_and_LifeCycle.pdf
+
+
+
 
