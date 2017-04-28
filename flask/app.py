@@ -46,7 +46,7 @@ def index():
       if file.filename == '':
          flash('No selected file')
          return redirect(request.url)
-      if file and allowed_file(file.filename):
+      else : #file and allowed_file(file.filename)
          filename = secure_filename(file.filename)
          inpath = app.config['UPLOAD_FOLDER']
          outpath = app.config['PROCESS_FOLDER']
