@@ -30,6 +30,7 @@ app.config['THIN_GALLERY'] = THIN_GALLERY
 app.config['STATS_EXTENSION'] = STATS_EXTENSION
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 app.secret_key = 'my secret malaria key'
+app.config['DEBUG'] = False
 tolerance = 50
 
 # Index page handler
@@ -100,13 +101,13 @@ def gallery():
          outpath = app.config['GALLERY_PROC_FOLDER'] + app.config['THICK_GALLERY'] + 'Output/'
 
       files = get_files(inpath)
-      
+
       for f in files:
          process_file(inpath+'/'+f, outpath+'/'+f, str(threshold))
 
       return render_template('gallery.html', gallery_list=files, gallery_inpath=inpath, gallery_outpath=outpath)
 
-   else: 
+   else:
       inpath = app.config['GALLERY_RAW_FOLDER'] + app.config['THIN_GALLERY'] + 'Input/'
       outpath = app.config['GALLERY_PROC_FOLDER'] + app.config['THIN_GALLERY'] + 'Output/'
       files = get_files(inpath)
@@ -121,7 +122,7 @@ def get_files(gallery_path):
 
 
 # Do malaria detection image processing
-def process_file(inpath, outpath, threshold):   
+def process_file(inpath, outpath, threshold):
    detector.process(inpath, outpath, str(threshold))
 
 
