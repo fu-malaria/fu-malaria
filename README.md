@@ -11,11 +11,11 @@ Last year my engineer FV and I spent a summer working on a skunk works project t
 
 Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.
 
-You can see a live demo here http://fumalaria.visimagic.com/
+You can see a live demo here http://homelabs.space:8880/
 
 To host your own version of fu-malaria, use the provided Dockerfile by typing:
 ```
-docker build . -t malaria_flask && docker run --name malaria_flask -p 8080:8000 malaria_flask
+docker build . -t malaria_flask && docker run --name malaria_flask -p 8000:8000 malaria_flask
 ```
 
 We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope <$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)
