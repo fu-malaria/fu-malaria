@@ -1,9 +1,9 @@
 ### FU Malaria - Open Source Computer Vision prototype for the Detection of Malaria and other diseases
 
-Original Code & IP donated by [Visimagic.com](http://visimagic.com) and [Xinova.com](http://Xinova.com) 
+Original Code & IP donated by [Visimagic.com](http://visimagic.com) and [Xinova.com](http://Xinova.com)
 
 
-Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells. 
+Last year my engineer FV and I spent a summer working on a skunk works project to train OpenCV to detect Malaria in blood cells.
 
 
 ![alt text](https://github.com/fu-malaria/fu-malaria/blob/master/Pf_rings_thinC.jpg "Blood Slide")
@@ -11,7 +11,12 @@ Last year my engineer FV and I spent a summer working on a skunk works project t
 
 Actual working output, blood cells with red border, Malaria shown with Black rings/outlines.
 
-You can see a live demo here http://fumalaria.visimagic.com/ 
+You can see a live demo here http://homelabs.space:8880/
+
+To host your own version of fu-malaria, use the provided Dockerfile by typing:
+```
+docker build . -t malaria_flask && docker run --name malaria_flask -p 8000:8000 malaria_flask
+```
 
 We had a vision of using a low cost computing device like a Raspberry Pi or Intel Joule to power a low cost portable Microscope <$300 that could use computer vision to detect Malaria and other diseases. (Mockup below)
 
@@ -25,24 +30,24 @@ The good news is that the new team at http://xinova.com/ have kindly contributed
 
 ## What Now
 
-We are asking developers in communities around the world to contribute their progamming and computer vision skills to enhance this project. 
+We are asking developers in communities around the world to contribute their progamming and computer vision skills to enhance this project.
 
-It should not need to be said but I will say it anyway, we invite anyone from any community, race, sex, sexual orientation or religion to contribute and encourage anyone who wants to try to build a business around this contribution if it helps achieve the aim of reducing Malaria. 
+It should not need to be said but I will say it anyway, we invite anyone from any community, race, sex, sexual orientation or religion to contribute and encourage anyone who wants to try to build a business around this contribution if it helps achieve the aim of reducing Malaria.
 
 ## FU Malaria Background
 
 **FU Malaria** is a platform that uses OpenCV and a rule set that detects and mark most Malaria species that affect humans. It displays the image with a colored circles to indicate the blood cells and any Malaria pathogens in an image of a thin blood smear.
- 
+
 Intellectual Ventures has a long track record of helping the Gates Foundation with Malaria projects but this was outside official channels and designed to be a fast and dirty experiment to see if we could train computer vision to detect Malaria in a blood slide image.
 
 We picked this because we wanted to validate if it was possible to put this capability into a small low cost computing package like a Raspberry PI or Intel Joule Computer Vision kit along with a Microscope so that it could go into field hospitals and clinics everywhere in the world to help cut down the transmission vector of the disease. (this is one of the biggest issues, cut the time it takes to diagnose and treat and you cut the multiplier effect of transmission).
- 
+
 After being restructured in 2016 and various life changes my previous employer Invention Development Fund (IDF) one of the investment funds of Intellectual Ventures has very kindly agreed to contribute this code to Visimagic Inc which is taking the step of open sourcing it so that developers of the world who feel strongly about this can do something about it.
 
 Originally implemented on Windows we are moving this to Linux.
 
 ##Issues & Limitations.
-This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off. 
+This is a good proof of concept. To make successful in the real world it needs to have some rough edges sanded off.
 
 It has the following issues Im aware of
 - It will occassionally detect cell artifacts that are not Malarial.
@@ -63,5 +68,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
- 
